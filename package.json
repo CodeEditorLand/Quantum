@@ -1,16 +1,32 @@
 {
   "name": "quantum",
-  "version": "0.0.0",
-  "type": "module",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
+  "homepage": "https://github.com/CodeEditorLand/Environment#readme",
+  "bugs": {
+    "url": "https://github.com/CodeEditorLand/Environment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeEditorLand/Environment.git"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": {
+    "name": "Nikola R. Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
+  },
+  "publisher": "playform",
+  "type": "module",
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
     "build": "vite build",
+    "dev": "vite",
+    "prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
     "serve": "vite preview",
+    "start": "vite",
     "tauri": "tauri"
   },
-  "license": "MIT",
   "dependencies": {
     "@tauri-apps/api": "2.0.0-alpha.13",
     "@tauri-apps/plugin-shell": "2.0.0-beta.1",
@@ -20,12 +36,15 @@
   "devDependencies": {
     "@tauri-apps/cli": "2.0.0-alpha.20",
     "autoprefixer": "10.4.17",
+    "internal-ip": "8.0.0",
     "postcss": "8.4.35",
-    "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.11",
     "typescript": "latest",
+    "typescript-esbuild": "0.3.6",
     "vite": "latest",
-    "vite-plugin-solid": "latest",
-    "internal-ip": "8.0.0"
+    "vite-plugin-solid": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
