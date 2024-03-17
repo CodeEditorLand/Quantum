@@ -12,17 +12,18 @@
     "tauri": "tauri"
   },
   "dependencies": {
-    "@tauri-apps/api": "2.0.0-alpha.13",
-    "@tauri-apps/plugin-shell": "2.0.0-alpha.3",
+    "@tauri-apps/api": "^2.0.0-alpha.13",
+    "@tauri-apps/plugin-shell": "^2.0.0-alpha.3",
     "solid-js": "latest",
     "tailwindcss": "latest"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "2.0.0-alpha.20",
-    "autoprefixer": "10.4.15",
-    "internal-ip": "7.0.0",
-    "postcss": "8.4.30",
-    "prettier-plugin-tailwindcss": "0.5.4",
+    "@tauri-apps/cli": "^2.0.0-alpha.20",
+    "autoprefixer": "^10.4.15",
+    "internal-ip": "^7.0.0",
+    "postcss": "^8.4.30",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
     "typescript": "latest",
     "vite": "latest",
     "vite-plugin-solid": "latest"
