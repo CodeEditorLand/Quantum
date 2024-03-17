@@ -1,11 +1,22 @@
 {
+  "name": "quantum",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview",
+    "start": "vite",
+    "tauri": "tauri"
+  },
   "dependencies": {
     "@tauri-apps/api": "2.0.0-alpha.13",
     "@tauri-apps/plugin-shell": "2.0.0-alpha.3",
     "solid-js": "latest",
     "tailwindcss": "latest"
   },
-  "description": "",
   "devDependencies": {
     "@tauri-apps/cli": "2.0.0-alpha.20",
     "autoprefixer": "10.4.15",
@@ -15,16 +26,5 @@
     "typescript": "latest",
     "vite": "latest",
     "vite-plugin-solid": "latest"
-  },
-  "license": "MIT",
-  "name": "quantum",
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "serve": "vite preview",
-    "start": "vite",
-    "tauri": "tauri"
-  },
-  "type": "module",
-  "version": "0.0.0"
+  }
 }
