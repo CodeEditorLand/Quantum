@@ -39,7 +39,7 @@
 		"postcss": "8.4.37",
 		"prettier-plugin-tailwindcss": "0.5.12",
 		"typescript": "latest",
-		"typescript-esbuild": "latest",
+		"typescript-esbuild": "0.4.5",
 		"vite": "latest",
 		"vite-plugin-solid": "latest"
 	},
