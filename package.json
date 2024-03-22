@@ -1,11 +1,37 @@
 {
+	"name": "quantum",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"homepage": "https://github.com/CodeEditorLand/Foundation#readme",
+	"bugs": {
+		"url": "https://github.com/CodeEditorLand/Foundation/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/CodeEditorLand/Foundation.git"
+	},
+	"license": "SEE LICENSE IN LICENSE",
+	"author": {
+		"name": "Playform",
+		"email": "Hello@Playform.Cloud",
+		"url": "https://playform.cloud"
+	},
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite",
+		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
+		"serve": "vite preview",
+		"start": "vite",
+		"tauri": "tauri"
+	},
 	"dependencies": {
 		"@tauri-apps/api": "2.0.0-alpha.13",
 		"@tauri-apps/plugin-shell": "2.0.0-beta.2",
 		"solid-js": "latest",
 		"tailwindcss": "latest"
 	},
-	"description": "",
 	"devDependencies": {
 		"@tauri-apps/cli": "2.0.0-alpha.20",
 		"autoprefixer": "10.4.18",
@@ -17,14 +43,7 @@
 		"vite": "latest",
 		"vite-plugin-solid": "latest"
 	},
-	"name": "quantum",
-	"scripts": {
-		"build": "vite build",
-		"dev": "vite",
-		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'",
-		"serve": "vite preview",
-		"start": "vite",
-		"tauri": "tauri"
-	},
-	"type": "module"
+	"publishConfig": {
+		"access": "public"
+	}
 }
