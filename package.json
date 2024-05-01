@@ -1,26 +1,39 @@
 {
-	"name": "quantum",
-	"version": "0.0.1",
-	"private": false,
+	"author": {
+		"email": "Land@PlayForm.Cloud",
+		"name": "🌆 — Land —",
+		"url": "HTTPS://Land.PlayForm.Cloud"
+	},
+	"bugs": {
+		"url": "HTTPS://GitHub.Com/CodeEditorLand/Quantum/issues"
+	},
+	"dependencies": {
+		"@tauri-apps/api": ">=2.0.0-beta.0",
+		"@tauri-apps/plugin-shell": ">=2.0.0-beta.3"
+	},
 	"description": "",
+	"devDependencies": {
+		"@playform/build": "0.0.7",
+		"@playform/document": "0.0.6",
+		"@tauri-apps/cli": ">=2.0.0-beta.0",
+		"autoprefixer": "10.4.19",
+		"internal-ip": "8.0.0",
+		"postcss": "8.4.38"
+	},
+	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Quantum#readme",
 	"keywords": [
 		"land"
 	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/Quantum#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/Quantum/issues"
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "quantum",
+	"private": false,
+	"publishConfig": {
+		"access": "public"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+HTTPS://github.com/CodeEditorLand/Quantum.git"
 	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🌆 — Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
 		"build": "vite build",
@@ -30,19 +43,6 @@
 		"start": "vite",
 		"tauri": "tauri"
 	},
-	"dependencies": {
-		"@tauri-apps/api": ">=2.0.0-beta.0",
-		"@tauri-apps/plugin-shell": ">=2.0.0-beta.3"
-	},
-	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6",
-		"@tauri-apps/cli": ">=2.0.0-beta.0",
-		"autoprefixer": "10.4.19",
-		"internal-ip": "8.0.0",
-		"postcss": "8.4.38"
-	},
-	"publishConfig": {
-		"access": "public"
-	}
+	"type": "module",
+	"version": "0.0.1"
 }
