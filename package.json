@@ -6,9 +6,9 @@
 	"description": "",
 	"devDependencies": {
 		"@tauri-apps/cli": ">=2.0.0-beta.0",
-		"autoprefixer": "^10.4.19",
-		"internal-ip": "^8.0.0",
-		"postcss": "^8.4.38"
+		"autoprefixer": "10.4.19",
+		"internal-ip": "8.0.0",
+		"postcss": "8.4.38"
 	},
 	"name": "quantum",
 	"scripts": {
