@@ -1,3 +1,3 @@
 node_modules
-.vinxi
-.output
+dist
+src-tauri/gen/**/*

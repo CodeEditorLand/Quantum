@@ -1,23 +1,13 @@
 {
-  "$schema": "../node_modules/@tauri-apps/cli/schema.json",
   "productName": "quantum",
   "version": "0.0.0",
-  "identifier": "quantum.template.dev",
+  "identifier": "com.tauri.dev",
   "build": {
     "beforeDevCommand": "pnpm dev",
     "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "pnpm build",
-    "frontendDist": "../.output/public"
+    "frontendDist": "../dist"
   },
-  "plugins": {
-    "updater": {
-      "active": true,
-      "endpoints": ["auto updater endpoint"],
-      "dialog": true,
-      "pubkey": "public key"
-    }
-  },
-
   "app": {
     "windows": [
       {
@@ -28,13 +18,9 @@
     ],
     "security": {
       "csp": null
-    },
-    "withGlobalTauri": false
+    }
   },
   "bundle": {
-    "macOS": {
-      "signingIdentity": "-"
-    },
     "active": true,
     "targets": "all",
     "icon": [
