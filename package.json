@@ -1,31 +1,21 @@
 {
-  "name": "quantum",
-  "version": "0.0.0",
-  "type": "module",
-  "description": "",
-  "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "tauri": "tauri"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "@tauri-apps/api": ">=2.0.0-beta.0",
-    "@tauri-apps/plugin-shell": ">=2.0.0-beta.6",
-    "solid-js": "latest",
-    "tailwindcss": "latest"
-  },
-  "devDependencies": {
-    "@tauri-apps/cli": ">=2.0.0-beta.0",
-    "autoprefixer": "10.4.19",
-    "internal-ip": "8.0.0",
-    "postcss": "8.4.38",
-    "prettier": "3.3.2",
-    "prettier-plugin-tailwindcss": "0.6.5",
-    "typescript": "latest",
-    "vite": "latest",
-    "vite-plugin-solid": "latest"
-  }
+	"name": "quantum",
+	"description": "",
+	"scripts": {
+		"build": "vite build",
+		"dev": "vite",
+		"serve": "vite preview",
+		"start": "vite",
+		"tauri": "tauri"
+	},
+	"dependencies": {
+		"@tauri-apps/api": ">=2.0.0-beta.0",
+		"@tauri-apps/plugin-shell": ">=2.0.0-beta.6"
+	},
+	"devDependencies": {
+		"@tauri-apps/cli": ">=2.0.0-beta.0",
+		"autoprefixer": "10.4.19",
+		"internal-ip": "8.0.0",
+		"postcss": "8.4.38"
+	}
 }
