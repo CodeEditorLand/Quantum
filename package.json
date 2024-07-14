@@ -1,13 +1,4 @@
 {
-	"name": "quantum",
-	"description": "",
-	"scripts": {
-		"build": "vinxi build",
-		"dev": "PORT=1420 HOST=0.0.0.0 vinxi dev",
-		"serve": "vinxi serve",
-		"start": "vinxi start",
-		"tauri": "tauri"
-	},
 	"dependencies": {
 		"@solidjs/router": "^0.13.5",
 		"@solidjs/start": "^1.0.1",
@@ -15,10 +6,19 @@
 		"@tauri-apps/plugin-shell": ">=2.0.0-beta.0",
 		"vinxi": "^0.3.12"
 	},
+	"description": "",
 	"devDependencies": {
 		"@tauri-apps/cli": ">=2.0.0-beta.0",
 		"autoprefixer": "^10.4.15",
 		"internal-ip": "^7.0.0",
 		"postcss": "^8.4.30"
+	},
+	"name": "quantum",
+	"scripts": {
+		"build": "vinxi build",
+		"dev": "PORT=1420 HOST=0.0.0.0 vinxi dev",
+		"serve": "vinxi serve",
+		"start": "vinxi start",
+		"tauri": "tauri"
 	}
 }
