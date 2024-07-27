@@ -26,10 +26,9 @@ specta = "=2.0.0-rc.12"
 tauri-plugin-updater = "2.0.0-beta.8"
 tauri-plugin-dialog = "2.0.0-beta.5"
 tauri-specta = { version = "=2.0.0-rc.11", features = [
-  "javascript",
-  "typescript",
+	"javascript",
+	"typescript",
 ] }
-
 
 # Optimize for smaller binary size
 [profile.release]
