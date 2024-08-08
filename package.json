@@ -2,16 +2,16 @@
 	"dependencies": {
 		"@solidjs/router": "0.14.1",
 		"@solidjs/start": "1.0.6",
-		"@tauri-apps/api": ">=2.0.0-beta.16",
-		"@tauri-apps/plugin-shell": ">=2.0.0-beta.9",
+		"@tauri-apps/api": ">=2.0.0-rc.0",
+		"@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
 		"vinxi": "0.4.1"
 	},
 	"description": "",
 	"devDependencies": {
-		"@tauri-apps/cli": ">=2.0.0-beta.23",
-		"autoprefixer": "10.4.19",
+		"@tauri-apps/cli": ">=2.0.0-rc.2",
+		"autoprefixer": "10.4.20",
 		"internal-ip": "8.0.0",
-		"postcss": "8.4.40"
+		"postcss": "8.4.41"
 	},
 	"name": "quantum",
 	"scripts": {
