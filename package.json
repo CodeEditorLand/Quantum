@@ -6,7 +6,6 @@
 		"@tauri-apps/plugin-shell": ">=2.0.0-rc.0",
 		"vinxi": "0.4.1"
 	},
-	"description": "",
 	"devDependencies": {
 		"@tauri-apps/cli": ">=2.0.0-rc.7",
 		"autoprefixer": "10.4.20",
