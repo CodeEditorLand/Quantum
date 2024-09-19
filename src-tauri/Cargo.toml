@@ -11,6 +11,8 @@ edition = "2021"
 name = "quantum_lib"
 crate-type = ["staticlib", "cdylib", "rlib"]
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
 [build-dependencies]
 tauri-build = { version = "2.0.0-rc", features = [] }
 
@@ -23,13 +25,10 @@ tauri-plugin-devtools = "2.0.0-rc"
 specta = "=2.0.0-rc.20"
 tauri-plugin-updater = "2.0.0-rc"
 tauri-plugin-dialog = "2.0.0-rc"
-tauri-specta = { version = "=2.0.0-rc.15", features = [
-	"derive",
-	"javascript",
-	"typescript",
-] }
+tauri-specta = { version = "=2.0.0-rc.15", features = ["derive", "javascript", "typescript"] }
 specta-typescript = "0.0.7"
 log = "0.4.22"
+
 
 # Optimize for smaller binary size
 [profile.release]
