@@ -1,0 +1,90 @@
+{
+  "badgeTemplate": "\t<a href=\"#contributors\" target=\"_blank\"><img alt=\"👪 All Contributors: <%= contributors.length %>\" src=\"https://img.shields.io/badge/%F0%9F%91%AA_all_contributors-<%= contributors.length %>-21bb42.svg\" /></a>",
+  "commit": false,
+  "commitConvention": "angular",
+  "commitType": "docs",
+  "contributors": [
+    {
+      "login": "atilafassina",
+      "name": "Atila Fassina",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2382552?v=4",
+      "profile": "https://atila.io",
+      "contributions": [
+        "maintenance",
+        "code",
+        "doc",
+        "bug",
+        "test",
+        "ideas"
+      ]
+    },
+    {
+      "login": "brendonovich",
+      "name": "Brendan Allan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14191578?v=4",
+      "profile": "http://brendonovich.dev",
+      "contributions": [
+        "code",
+        "ideas",
+        "bug"
+      ]
+    },
+    {
+      "login": "erikras",
+      "name": "Erik Rasmussen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4396759?v=4",
+      "profile": "https://erikras.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "felipeemos",
+      "name": "Felipe Emos",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10969700?v=4",
+      "profile": "https://github.com/FelipeEmos",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "kunalsin9h",
+      "name": "Kunal Singh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82411321?v=4",
+      "profile": "https://kunalsin9h.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "vasfvitor",
+      "name": "Vitor Ayres",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61759797?v=4",
+      "profile": "https://eu.virtuaires.com.br/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "JoshuaKGoldberg",
+      "name": "Josh Goldberg ✨",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3335181?v=4",
+      "profile": "http://www.joshuakgoldberg.com/",
+      "contributions": [
+        "doc",
+        "code",
+        "infra"
+      ]
+    }
+  ],
+  "files": [
+    "README.md"
+  ],
+  "contributorsSortAlphabetically": true,
+  "contributorsPerLine": 7,
+  "projectName": "quantum",
+  "projectOwner": "atilafassina",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

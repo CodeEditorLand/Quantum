@@ -2,27 +2,26 @@
 <img src="/docs/quantum-dark-mode.svg#gh-dark-mode-only" width="250" />
 <img src="/docs/quantum-dark-mode.svg#gh-light-mode-only" width="250" />
   <h1>Quantum</h1>
-  <p>This template should help get you started developing with Tauri + SolidStart + TypeScript.</p>
+  <p>A big leap developing with Tauri + SolidStart + TypeScript.</p>
 </div>
 
-> [!note]
-> Tauri v2 is already considered stable, it is currently at the **Release Candidate** stage. This means only minor fixes are expected towards the stable release.
-
-## Cloning it 🐑
-
-You can use the Template button on the GitHub UI and shallow clone this repository. Or, do it with degit:
+## Let's get going! 🐑
 
 ```sh
-npx degit atilafassina/quantum
+pnpm create quantum
 ```
 
-Alternatively, good old `git clone` can also work. It's recommended to make a shallow clone so it doesn't bring entire repository history:
+```sh
+npm create quantum
+```
 
 ```sh
-git clone --depth 1 https://github.com/atilafassina/quantum
+yarn create quantum
 ```
 
 ## Running 🚤
+
+Once scaffolding is done, you can `cd` into your project, install dependencies and start rocking! 🤘
 
 The snippets below use [PNPM](https://pnpm.io) as the package manager and task runner, but Yarn, NPM, Bun, or Cargo should also work with the appropriate syntax.
 
@@ -125,6 +124,26 @@ Stripping symbols from generated code is generally recommended for release build
 - [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
----
+## Contributors
 
-<img width="50" src="/public/tauri.svg" />
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://atila.io"><img src="https://avatars.githubusercontent.com/u/2382552?v=4?s=100" width="100px;" alt="Atila Fassina"/><br /><sub><b>Atila Fassina</b></sub></a><br /><a href="#maintenance-atilafassina" title="Maintenance">🚧</a> <a href="https://github.com/atilafassina/quantum/commits?author=atilafassina" title="Code">💻</a> <a href="https://github.com/atilafassina/quantum/commits?author=atilafassina" title="Documentation">📖</a> <a href="https://github.com/atilafassina/quantum/issues?q=author%3Aatilafassina" title="Bug reports">🐛</a> <a href="https://github.com/atilafassina/quantum/commits?author=atilafassina" title="Tests">⚠️</a> <a href="#ideas-atilafassina" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://brendonovich.dev"><img src="https://avatars.githubusercontent.com/u/14191578?v=4?s=100" width="100px;" alt="Brendan Allan"/><br /><sub><b>Brendan Allan</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/commits?author=brendonovich" title="Code">💻</a> <a href="#ideas-brendonovich" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/atilafassina/quantum/issues?q=author%3Abrendonovich" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://erikras.com"><img src="https://avatars.githubusercontent.com/u/4396759?v=4?s=100" width="100px;" alt="Erik Rasmussen"/><br /><sub><b>Erik Rasmussen</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/commits?author=erikras" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/FelipeEmos"><img src="https://avatars.githubusercontent.com/u/10969700?v=4?s=100" width="100px;" alt="Felipe Emos"/><br /><sub><b>Felipe Emos</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/commits?author=felipeemos" title="Code">💻</a> <a href="https://github.com/atilafassina/quantum/issues?q=author%3Afelipeemos" title="Bug reports">🐛</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.joshuakgoldberg.com/"><img src="https://avatars.githubusercontent.com/u/3335181?v=4?s=100" width="100px;" alt="Josh Goldberg ✨"/><br /><sub><b>Josh Goldberg ✨</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/commits?author=JoshuaKGoldberg" title="Documentation">📖</a> <a href="https://github.com/atilafassina/quantum/commits?author=JoshuaKGoldberg" title="Code">💻</a> <a href="#infra-JoshuaKGoldberg" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://kunalsin9h.com"><img src="https://avatars.githubusercontent.com/u/82411321?v=4?s=100" width="100px;" alt="Kunal Singh"/><br /><sub><b>Kunal Singh</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/commits?author=kunalsin9h" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://eu.virtuaires.com.br/"><img src="https://avatars.githubusercontent.com/u/61759797?v=4?s=100" width="100px;" alt="Vitor Ayres"/><br /><sub><b>Vitor Ayres</b></sub></a><br /><a href="https://github.com/atilafassina/quantum/issues?q=author%3Avasfvitor" title="Bug reports">🐛</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->

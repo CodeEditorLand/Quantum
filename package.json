@@ -1,24 +1,50 @@
 {
-	"dependencies": {
-		"@solidjs/router": "0.14.7",
-		"@solidjs/start": "1.0.8",
-		"@tauri-apps/api": "2.0.0-rc.6",
-		"@tauri-apps/plugin-shell": "2.0.0-rc.1",
-		"vinxi": "0.4.3"
-	},
-	"description": "",
-	"devDependencies": {
-		"@tauri-apps/cli": "2.0.0-rc.17",
-		"autoprefixer": "10.4.20",
-		"internal-ip": "8.0.0",
-		"postcss": "8.4.47"
-	},
-	"name": "quantum",
-	"scripts": {
-		"build": "vinxi build",
-		"dev": "vinxi dev",
-		"serve": "vinxi serve",
-		"start": "vinxi start",
-		"tauri": "tauri"
-	}
+  "name": "create-quantum",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atilafassina/quantum"
+  },
+  "bin": {
+    "create-quantum": "./bin/run.js"
+  },
+  "files": [
+    "bin/",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "release-it": "release-it",
+    "build": "tsup",
+    "test": "vitest",
+    "dry": "pnpm build && node ./bin/run.js --debug"
+  },
+  "author": {
+    "name": "@AtilaFassina",
+    "url": "https://atila.io"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@tauri-apps/cli": "2.0.0-rc.17",
+    "gradient-string": "^3.0.0"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^8.0.2",
+    "@types/node": "^22.7.4",
+    "release-it": "^17.6.0",
+    "release-it-pnpm": "^4.6.3",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4",
+    "vite": "^5.3.5",
+    "vitest": "^2.1.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "provenance": "true"
+  }
 }
