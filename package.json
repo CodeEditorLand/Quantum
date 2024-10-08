@@ -4,14 +4,14 @@
 	},
 	"dependencies": {
 		"@clack/prompts": "^0.7.0",
-		"@tauri-apps/cli": "2.0.0-rc.17",
+		"@tauri-apps/cli": "2.0.2",
 		"gradient-string": "^3.0.0"
 	},
 	"devDependencies": {
 		"@release-it/conventional-changelog": "^8.0.2",
-		"@types/node": "^22.7.4",
+		"@types/node": "^22.7.5",
 		"release-it-pnpm": "^4.6.3",
-		"tsup": "^8.2.4"
+		"tsup": "^8.3.0"
 	},
 	"files": [
 		"bin/",
