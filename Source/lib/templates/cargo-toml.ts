@@ -1,23 +1,23 @@
 import { createFile } from "../create-file.js";
 
 interface CargoTomlParams {
-  name: string;
-  hasAutoupdater: boolean;
+	name: string;
+	hasAutoupdater: boolean;
 }
 
 interface HandleCargoToml extends CargoTomlParams {
-  path: string;
+	path: string;
 }
 
 export async function handleCargoToml({
-  path,
-  ...cargoTomlParams
+	path,
+	...cargoTomlParams
 }: HandleCargoToml) {
-  return createFile(path, cargoToml(cargoTomlParams));
+	return createFile(path, cargoToml(cargoTomlParams));
 }
 
 function cargoToml({ name, hasAutoupdater }: CargoTomlParams) {
-  return `
+	return `
 [package]
 name = "${name}"
 version = "0.0.0"
@@ -41,8 +41,8 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tauri-plugin-devtools = "2.0.0-rc"
 specta = "=2.0.0-rc.20"${
-    hasAutoupdater ? '\ntauri-plugin-updater = "2.0.0-rc"' : ""
-  }
+		hasAutoupdater ? '\ntauri-plugin-updater = "2.0.0-rc"' : ""
+	}
 tauri-plugin-dialog = "2.0.0-rc"
 tauri-specta = { version = "=2.0.0-rc.15", features = ["derive", "javascript", "typescript"] }
 specta-typescript = "0.0.7"

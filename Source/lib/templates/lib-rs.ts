@@ -1,15 +1,15 @@
 import { createFile } from "../create-file.js";
 
 interface LibRsParams {
-  shouldSetCI: boolean;
+	shouldSetCI: boolean;
 }
 
 interface HandleLibRsParams extends LibRsParams {
-  path: string;
+	path: string;
 }
 
 function libRs({ shouldSetCI }: LibRsParams) {
-  return `
+	return `
 use tauri_specta::Event;
 
 // demo command
@@ -59,10 +59,10 @@ pub fn run() {
 
     builder
         .plugin(tauri_plugin_shell::init())${
-          shouldSetCI
-            ? "\n        .plugin(tauri_plugin_updater::Builder::new().build())"
-            : ""
-        }
+			shouldSetCI
+				? "\n        .plugin(tauri_plugin_updater::Builder::new().build())"
+				: ""
+		}
         .plugin(tauri_plugin_dialog::init())
         .invoke_handler(specta_builder.invoke_handler())
         .setup(move |app| {
@@ -86,5 +86,5 @@ pub fn run() {
 }
 
 export async function handleLibRs({ path, shouldSetCI }: HandleLibRsParams) {
-  return createFile(path, libRs({ shouldSetCI }));
+	return createFile(path, libRs({ shouldSetCI }));
 }

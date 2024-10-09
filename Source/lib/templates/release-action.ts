@@ -1,17 +1,17 @@
 import { createFile } from "../create-file.js";
 
 interface ReleaseActionParams {
-  name: string;
-  org?: string;
+	name: string;
+	org?: string;
 }
 
 interface HandleReleaseActionParams extends ReleaseActionParams {
-  shouldSetCI: boolean;
-  path: string;
+	shouldSetCI: boolean;
+	path: string;
 }
 
 function releaseAction({ name, org }: ReleaseActionParams) {
-  return `
+	return `
   name: ✨ Publish Release
 
   on:
@@ -125,13 +125,13 @@ function releaseAction({ name, org }: ReleaseActionParams) {
 }
 
 export async function handleReleaseAction({
-  path,
-  shouldSetCI,
-  ...releaseActionParams
+	path,
+	shouldSetCI,
+	...releaseActionParams
 }: HandleReleaseActionParams) {
-  if (shouldSetCI) {
-    return createFile(path, releaseAction(releaseActionParams));
-  } else {
-    return Promise.resolve();
-  }
+	if (shouldSetCI) {
+		return createFile(path, releaseAction(releaseActionParams));
+	} else {
+		return Promise.resolve();
+	}
 }

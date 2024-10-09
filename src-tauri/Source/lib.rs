@@ -3,7 +3,7 @@ use tauri_specta::Event;
 // demo command
 #[tauri::command]
 #[specta::specta]
-fn greet(app: tauri::AppHandle, name: &str) -> String {
+fn greet(app:tauri::AppHandle, name:&str) -> String {
 	DemoEvent("Demo event fired from Rust 🦀".to_string()).emit(&app).ok();
 	format!("Hello, {}! You've been greeted from Rust!", name)
 }
