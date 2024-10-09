@@ -4,9 +4,9 @@ import { FileRoutes } from "@solidjs/start/router";
 import "./styles.css";
 
 export default function App() {
-  return (
-    <Router>
-      <FileRoutes />
-    </Router>
-  );
+	return (
+		<Router>
+			<FileRoutes />
+		</Router>
+	);
 }
