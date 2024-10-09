@@ -1,17 +1,17 @@
 {
 	"dependencies": {
-		"@solidjs/router": "^0.14.7",
-		"@solidjs/start": "^1.0.8",
+		"@solidjs/router": "0.14.7",
+		"@solidjs/start": "1.0.8",
 		"@tauri-apps/api": "2.0.2",
 		"@tauri-apps/plugin-shell": "2.0.0",
-		"vinxi": "^0.4.3"
+		"vinxi": "0.4.3"
 	},
 	"description": "",
 	"devDependencies": {
 		"@tauri-apps/cli": "2.0.2",
-		"autoprefixer": "^10.4.20",
-		"internal-ip": "^8.0.0",
-		"postcss": "^8.4.47"
+		"autoprefixer": "10.4.20",
+		"internal-ip": "8.0.0",
+		"postcss": "8.4.47"
 	},
 	"name": "quantum-template",
 	"scripts": {

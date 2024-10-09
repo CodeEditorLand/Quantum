@@ -20,10 +20,10 @@ tauri-plugin-shell = "2.0.0-rc"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tauri-plugin-devtools = "2.0.0-rc"
-specta = "=2.0.0-rc.20"
+specta = "2.0.0-rc.20"
 tauri-plugin-updater = "2.0.0-rc"
 tauri-plugin-dialog = "2.0.0-rc"
-tauri-specta = { version = "=2.0.0-rc.15", features = [
+tauri-specta = { version = "2.0.0-rc.15", features = [
 	"derive",
 	"javascript",
 	"typescript",
