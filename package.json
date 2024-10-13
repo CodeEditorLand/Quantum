@@ -4,7 +4,7 @@
 	},
 	"dependencies": {
 		"@clack/prompts": "0.7.0",
-		"@tauri-apps/cli": "2.0.2",
+		"@tauri-apps/cli": "2.0.3",
 		"gradient-string": "3.0.0"
 	},
 	"devDependencies": {
