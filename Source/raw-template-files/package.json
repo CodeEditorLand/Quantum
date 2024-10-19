@@ -1,7 +1,7 @@
 {
 	"dependencies": {
-		"@solidjs/router": "0.14.9",
-		"@solidjs/start": "1.0.8",
+		"@solidjs/router": "0.14.10",
+		"@solidjs/start": "1.0.9",
 		"@tauri-apps/api": "2.0.2",
 		"@tauri-apps/plugin-shell": "2.0.0",
 		"vinxi": "0.4.3"
