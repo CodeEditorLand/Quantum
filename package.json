@@ -9,7 +9,7 @@
 	},
 	"devDependencies": {
 		"@release-it/conventional-changelog": "9.0.0",
-		"@types/node": "22.7.6",
+		"@types/node": "22.7.7",
 		"release-it-pnpm": "4.6.3",
 		"tsup": "8.3.0"
 	},
