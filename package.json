@@ -27,19 +27,19 @@
     "url": "https://atila.io"
   },
   "dependencies": {
-    "@clack/prompts": "^0.7.0",
-    "@tauri-apps/cli": "2.0.0-rc.17",
+    "@clack/prompts": "^0.11.0",
+    "@tauri-apps/cli": "2.5.0",
     "gradient-string": "^3.0.0"
   },
   "devDependencies": {
-    "@release-it/conventional-changelog": "^8.0.2",
-    "@types/node": "^22.7.4",
-    "release-it": "^17.6.0",
-    "release-it-pnpm": "^4.6.3",
-    "tsup": "^8.2.4",
-    "typescript": "^5.5.4",
-    "vite": "^5.3.5",
-    "vitest": "^2.1.1"
+    "@release-it/conventional-changelog": "^10.0.1",
+    "@types/node": "^22.15.30",
+    "release-it": "^19.0.3",
+    "release-it-pnpm": "^4.6.6",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.2"
   },
   "engines": {
     "node": ">=20"

@@ -13,23 +13,23 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@solidjs/router": "^0.13.6",
-    "@solidjs/start": "^1.0.6",
-    "@tauri-apps/api": "2.0.0-rc.0",
-    "@tauri-apps/plugin-shell": "2.0.0-rc.0",
-    "solid-js": "^1.8.19",
-    "tailwindcss": "^3.4.7",
-    "vinxi": "^0.4.0"
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.1.4",
+    "@tauri-apps/api": "2.5.0",
+    "@tauri-apps/plugin-shell": "2.2.1",
+    "solid-js": "^1.9.7",
+    "tailwindcss": "3.4.17",
+    "vinxi": "^0.5.6"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "2.0.0-rc.0",
-    "autoprefixer": "^10.4.20",
-    "internal-ip": "^7.0.0",
-    "postcss": "^8.4.41",
-    "prettier": "^3.3.3",
-    "prettier-plugin-tailwindcss": "^0.5.14",
-    "typescript": "^5.5.4",
-    "vite": "^5.3.5",
-    "vite-plugin-solid": "^2.10.2"
+    "@tauri-apps/cli": "2.5.0",
+    "autoprefixer": "^10.4.21",
+    "internal-ip": "^8.0.0",
+    "postcss": "^8.5.4",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.12",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-solid": "^2.11.6"
   }
 }
