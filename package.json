@@ -33,13 +33,13 @@
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^10.0.1",
-    "@types/node": "^22.15.30",
+    "@types/node": "^24.0.0",
     "release-it": "^19.0.3",
     "release-it-pnpm": "^4.6.6",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
-    "vitest": "^3.2.2"
+    "vitest": "^3.2.3"
   },
   "engines": {
     "node": ">=20"
